@@ -8,8 +8,7 @@
       $(function() {
 
         $('#like').click(function () {
-          var track = _gaq.push(['_trackEvent', 'Like', 'click']);
-          console.log(track);
+          _gaq.push(['_trackEvent', 'Like', 'click']);
           return false;
         });
 
@@ -21,7 +20,7 @@
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-10970430-1']);
+      _gaq.push(['_setAccount', 'UA-4489553-1']);
       _gaq.push(['_trackPageview']);
 
       (function() {
